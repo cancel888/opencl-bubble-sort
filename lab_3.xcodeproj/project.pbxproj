@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1150E55F1AEBA0E800B4B102 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1150E55E1AEBA0E800B4B102 /* main.cpp */; };
+		1150E5661AEBA10000B4B102 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1150E5651AEBA10000B4B102 /* OpenCL.framework */; };
+		1150E5681AEBAA7700B4B102 /* kernel_exec.cl in Sources */ = {isa = PBXBuildFile; fileRef = 1150E5671AEBAA7700B4B102 /* kernel_exec.cl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		1150E55B1AEBA0E800B4B102 /* lab_3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lab_3; sourceTree = BUILT_PRODUCTS_DIR; };
 		1150E55E1AEBA0E800B4B102 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1150E5651AEBA10000B4B102 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = ../../../../System/Library/Frameworks/OpenCL.framework; sourceTree = "<group>"; };
+		1150E5671AEBAA7700B4B102 /* kernel_exec.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = kernel_exec.cl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1150E5661AEBA10000B4B102 /* OpenCL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +46,7 @@
 		1150E5521AEBA0E800B4B102 = {
 			isa = PBXGroup;
 			children = (
+				1150E5651AEBA10000B4B102 /* OpenCL.framework */,
 				1150E55D1AEBA0E800B4B102 /* lab_3 */,
 				1150E55C1AEBA0E800B4B102 /* Products */,
 			);
@@ -58,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				1150E55E1AEBA0E800B4B102 /* main.cpp */,
+				1150E5671AEBAA7700B4B102 /* kernel_exec.cl */,
 			);
 			path = lab_3;
 			sourceTree = "<group>";
@@ -118,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1150E5681AEBAA7700B4B102 /* kernel_exec.cl in Sources */,
 				1150E55F1AEBA0E800B4B102 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
